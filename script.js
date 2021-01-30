@@ -42,3 +42,11 @@ function calculateTotal(){
     document.getElementById('grand-total').innerText = "$" + grandTotal;
 };
 
+const bookNowBtn = document.getElementById('book-now');
+bookNowBtn.addEventListener('click', function(){
+    const bookingArea = document.getElementById('booking-area');
+    bookingArea.style.display = 'none';
+    const paymentArea = document.getElementById('payment-area');
+    paymentArea.style.display = 'block';
+})
+

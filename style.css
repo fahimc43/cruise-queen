@@ -13,6 +13,18 @@ body{
     background-attachment: scroll;
     background-size: cover;
 }
+#payment-area{
+    display: none;
+    padding: 20px;
+}
+.payment-form{
+    margin-top: 20px;
+    padding: 50px;  
+}
+.payment-form label{
+    color: #fff;
+    text-transform: uppercase;
+}
 nav{
     height: 50px;
     width: 100%;
@@ -50,7 +62,7 @@ nav ul li a:hover, a.active{
     float: left;
     margin-left: 50px;
 }
-.booking-content h1{
+.headline{
     font-size: 70px;
     text-transform: uppercase;
     font-family: 'Bebas Neue', cursive;
@@ -97,14 +109,18 @@ nav ul li a:hover, a.active{
     min-width: 300px;
 }
 .plus-minus-btn{
-    font-size: 30px;
     padding: 2px;
-    margin: 10px 5px 0px 0px;
-    word-spacing: 20px;
+    margin: 30px 5px 0px 0px;
+    word-spacing: 15px;
 }
 .btn-icon{
-    font-size: 20px;
-    color: #3352F2;
+    padding: 2px;
+    font-size: 25px;
+    color:#fff;
+    border-radius: 5px;
+    background-color:  #E33741;
+    border: none;
+    
 }
 .booking-form .inputs{
     display: grid;
