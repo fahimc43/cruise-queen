@@ -119,8 +119,7 @@ nav ul li a:hover, a.active{
     color:#fff;
     border-radius: 5px;
     background-color:  #E33741;
-    border: none;
-    
+    border: none;    
 }
 .booking-form .inputs{
     display: grid;

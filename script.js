@@ -41,12 +41,12 @@ function calculateTotal(){
     const grandTotal = totalPrice + vat;
     document.getElementById('grand-total').innerText = "$" + grandTotal;
 };
-
+// Payment Item
 const bookNowBtn = document.getElementById('book-now');
 bookNowBtn.addEventListener('click', function(){
     const bookingArea = document.getElementById('booking-area');
     bookingArea.style.display = 'none';
     const paymentArea = document.getElementById('payment-area');
     paymentArea.style.display = 'block';
-})
+});
 
